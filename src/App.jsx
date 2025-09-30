@@ -12,6 +12,8 @@ import Dashboard from './pages/alumni/Dashboard';
 import ProfileView from './pages/alumni/ProfileView';
 import ProfileEdit from './pages/alumni/ProfileEdit';
 import AlumniDirectory from './pages/alumni/AlumniDirectory';
+import EventsList from './pages/alumni/EventsList';
+import EventDetails from './pages/alumni/EventDetails';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
             <Route path="/profile" element={<ProfileView />} />
             <Route path="/profile/edit" element={<ProfileEdit />} />
             <Route path="/alumni" element={<AlumniDirectory />} />
+            <Route path="/events" element={<EventsList />} />
+            <Route path="/events/:eventId" element={<EventDetails />} />
           </Routes>
         </main>
         <Footer />
