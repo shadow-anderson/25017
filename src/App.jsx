@@ -16,6 +16,7 @@ import EventsList from './pages/alumni/EventsList';
 import EventDetails from './pages/alumni/EventDetails';
 import JobList from './pages/alumni/JobList';
 import JobDetails from './pages/alumni/JobDetails';
+import Mentorship from './pages/alumni/Mentorship';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/events/:eventId" element={<EventDetails />} />
             <Route path="/jobs" element={<JobList />} />
             <Route path="/jobs/:jobId" element={<JobDetails />} />
+            <Route path="/mentorship" element={<Mentorship />} />
           </Routes>
         </main>
         <Footer />
