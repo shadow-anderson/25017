@@ -18,6 +18,7 @@ import JobList from './pages/alumni/JobList';
 import JobDetails from './pages/alumni/JobDetails';
 import Mentorship from './pages/alumni/Mentorship';
 import Networking from './pages/alumni/Networking';
+import Settings from './pages/alumni/Settings';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <Route path="/jobs/:jobId" element={<JobDetails />} />
             <Route path="/mentorship" element={<Mentorship />} />
             <Route path="/networking" element={<Networking />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </main>
         <Footer />
