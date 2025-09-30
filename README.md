@@ -142,7 +142,7 @@ Includes Tailwind CSS and Autoprefixer plugins.
 
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is for educational and demonstration purposes in Smart India Hackathon.
 
 ## 🤝 Contributing
 
