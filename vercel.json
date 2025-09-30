@@ -187,11 +187,6 @@
       "permanent": true
     }
   ],
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "@vercel/node"
-    }
-  },
   "trailingSlash": false,
   "cleanUrls": true
 }
