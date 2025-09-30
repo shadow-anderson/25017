@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
+import NotFound from './pages/NotFound';
 import Dashboard from './pages/alumni/Dashboard';
 import ProfileView from './pages/alumni/ProfileView';
 import ProfileEdit from './pages/alumni/ProfileEdit';
@@ -44,6 +45,8 @@ function App() {
             <Route path="/mentorship" element={<Mentorship />} />
             <Route path="/networking" element={<Networking />} />
             <Route path="/settings" element={<Settings />} />
+            {/* Catch-all route for unmatched paths */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
