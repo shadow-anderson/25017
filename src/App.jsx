@@ -11,6 +11,7 @@ import ForgotPassword from './pages/ForgotPassword';
 import Dashboard from './pages/alumni/Dashboard';
 import ProfileView from './pages/alumni/ProfileView';
 import ProfileEdit from './pages/alumni/ProfileEdit';
+import AlumniDirectory from './pages/alumni/AlumniDirectory';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/profile" element={<ProfileView />} />
             <Route path="/profile/edit" element={<ProfileEdit />} />
+            <Route path="/alumni" element={<AlumniDirectory />} />
           </Routes>
         </main>
         <Footer />
