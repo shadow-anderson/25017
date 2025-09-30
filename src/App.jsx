@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
 import Dashboard from './pages/alumni/Dashboard';
+import ProfileView from './pages/alumni/ProfileView';
+import ProfileEdit from './pages/alumni/ProfileEdit';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/profile" element={<ProfileView />} />
+            <Route path="/profile/edit" element={<ProfileEdit />} />
           </Routes>
         </main>
         <Footer />
