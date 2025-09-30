@@ -14,6 +14,8 @@ import ProfileEdit from './pages/alumni/ProfileEdit';
 import AlumniDirectory from './pages/alumni/AlumniDirectory';
 import EventsList from './pages/alumni/EventsList';
 import EventDetails from './pages/alumni/EventDetails';
+import JobList from './pages/alumni/JobList';
+import JobDetails from './pages/alumni/JobDetails';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
             <Route path="/alumni" element={<AlumniDirectory />} />
             <Route path="/events" element={<EventsList />} />
             <Route path="/events/:eventId" element={<EventDetails />} />
+            <Route path="/jobs" element={<JobList />} />
+            <Route path="/jobs/:jobId" element={<JobDetails />} />
           </Routes>
         </main>
         <Footer />
